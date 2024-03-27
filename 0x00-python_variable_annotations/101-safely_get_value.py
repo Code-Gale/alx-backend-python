@@ -26,4 +26,3 @@ def safely_get_value(dct: typing.Mapping, key: typing.Any, default:
         return dct[key]
     else:
         return default
-    
